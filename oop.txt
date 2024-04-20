@@ -1,0 +1,37 @@
+object oriented programming--
+oop is an approach that provide a way of modularizing programs by creating partitioned memory area for both data and functions that.so we can use it as template or class for creating copies of such modules on demand(objects).
+
+some basic concepts associated with oop 
+classes and objects
+data abstraction and encapsulation
+inheritance
+polymorphism
+message passing
+
+constructors in c++
+a constructor is a member function of a class which initializes objects of a class.in c++ constructor is automatically called when object is created.it is special member function of the class.
+
+types of constructors -
+default constructors - which doesn't take any argument.
+parameterized constructor - which takes argument arguments.typically,these arguments helps to initialize an object when it is created.
+copy constructor - which initialize an object using another object of the same class.
+
+destructor in c++
+destructor is a member function which destructs of deletes an object.
+
+friend function 
+a friend function of a class is defined outside that class scope but it has the right to access all private and protected members of the class.
+even through the prototypes for friend function appear in class definition,friends are not member function.
+
+need of friend function-
+special case when class's private data needs to be  accessed directly without using object of that class.
+operator overloading.
+
+inheritance in c++
+type of inheritance 
+single level inheritance-one derived class takes property from base class.
+multiple inheritance- one derived class takes property from more than one base class.
+hierarchial inheritance-more than one derived classes takes property from one base.
+
+multi level inheritace - from one base class there is one derived class1 and from that derived class1 there is one derived class2.
+hybrid inheritance - from one base class there is two child classes.and from that two child classes there is a 

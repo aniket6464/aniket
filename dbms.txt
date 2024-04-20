@@ -1,0 +1,39 @@
+ACID PROPERTIES --
+Atomicity -
+all sql statement are executed or non should execute
+Consitency -
+all data inserted or updated should be in valid data type and follow all rules and constrains
+Isolation-
+one transcation should not effect another transcation.
+Durability -
+inserted and commited data must not be lost even there is power failure.
+
+primary key - 
+foreign key - maintain referential integrity constrain
+              (value of foreign key must be present in primary key)
+may occurs violation--
+for referecing table-
+on deletion or on updation
+
+for referenced table-
+on insertion,
+
+dependency preservation decomposition-
+first of all attributes must not be lost
+don't take trivial dependency 
+
+cascading schedule -- error due to write read conflect
+cascadeless schedule -- we can avoid cascading schedule error(means we are not allowing the read operatin after the write operation)(but there is also one problem if we perform write after write)
+
+indexing-
+key-uniqueness
+non key-non uniqueness
+primary index correspondes to key
+
+B-tree ---
+B-tree follows binary search tree method,and must be in sorted.
+for minimus children --
+	for even - /2 and +1
+	for odd - /2 and take upper value
+topic covered - 
+s36 37 38

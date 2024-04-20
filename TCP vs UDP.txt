@@ -1,0 +1,7 @@
+TCP vs UDP 
+tcp is connection oriented (before sending the data it creates the connection) while udp is connectionless.
+tcp is reliable (like telephone connection) while udp is less reliable.
+in tcp error control is mondatory(we have to provide checksum in header of tcp) while in udp it is optional.
+tcp is slow compare to udp.
+tcp has more overhead (as size of tcp header is more than udp).while udp has less overhead.
+tcp provides the flow control and congesion control(take care of receiver window capcity and network capacity) while udp does not provide such facilities.

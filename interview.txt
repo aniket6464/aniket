@@ -1,0 +1,201 @@
+MongoDB and MySQL are both popular database management systems, but they have some significant differences in their architectures, data models, query languages, and use cases.
+
+Data Model:
+
+MongoDB is a NoSQL database that uses a flexible, document-based data model. It stores data in JSON-like documents with dynamic schemas, allowing for more flexible and schema-less data structures.
+MySQL is a relational database management system (RDBMS) that follows a tabular data model. It organizes data into tables with predefined schemas, enforcing relationships between tables using foreign keys.
+Query Language:
+
+MongoDB uses a query language similar to JavaScript, called the MongoDB Query Language (MQL). It includes methods for CRUD (Create, Read, Update, Delete) operations as well as aggregation functions for data analysis.
+MySQL uses Structured Query Language (SQL), a standard language for managing relational databases. SQL supports complex queries, joins, transactions, and other operations specific to relational databases.
+Scalability:
+
+MongoDB is designed for horizontal scalability, meaning it can easily scale out across multiple servers to handle large volumes of data and high read/write loads.
+MySQL traditionally relies more on vertical scalability, where you scale up by adding more resources (CPU, RAM) to a single server. However, MySQL also supports some forms of horizontal scaling through techniques like sharding and replication.
+Schema Flexibility:
+
+MongoDB offers schema flexibility, allowing you to store data without a predefined schema. This flexibility is suitable for scenarios where data structures evolve over time or where the data is naturally unstructured.
+MySQL enforces a rigid schema, requiring you to define the structure of your data upfront. While this can provide strong data consistency and integrity, it may be less flexible for certain use cases.
+Use Cases:
+
+MongoDB is often preferred for applications with rapidly changing requirements, unstructured or semi-structured data, and high scalability needs, such as real-time analytics, content management systems, and IoT applications.
+MySQL is commonly used for applications that require strong ACID (Atomicity, Consistency, Isolation, Durability) compliance, complex transactions, and relational data modeling, such as e-commerce platforms, financial systems, and enterprise applications.
+Community and Ecosystem:
+
+Both MongoDB and MySQL have large and active communities, with extensive documentation, tutorials, and support resources available.
+MySQL has been around longer and is widely used in various industries, resulting in a larger ecosystem of tools, libraries, and third-party integrations.
+MongoDB has gained popularity more recently, particularly in the web development and startup communities, and offers its own set of libraries, drivers, and tools tailored for modern application development.
+In summary, the choice between MongoDB and MySQL depends on factors such as your application requirements, data structure, scalability needs, and familiarity with the respective technologies
+
+While interview questions can vary depending on the industry, job role, and specific company, here are some commonly asked questions in job interviews:
+
+tell me about yourself -
+name educational-backgroud experiace skill achievement 
+justify
+-----------
+
+-----------
+hello sir 
+my name is aniket samudre.i am pursuing my b.tech from vjti college.i began my coding journey at 19 with my first coding language c++.apart from that i have done course on introduction to c++ and dsa.which helped me to understand how it is importance in problem solving. 
+i have completed my summer intership.in which i worked in data generation for different real time schedulling algorithm. and kenel compilation. and i really enjoy my experience there.
+-----------
+
+-----------
+good morning thanks you for this opportunity. my name is aniket samudre and i am pursing my Btech from vjti college.
+i have worked in web development.last summer i completed my internship. in which i worked in data generation for different real time schedulling algorithm. and kenel level work. and i really enjoy my experience there.
+-----------
+
+kernel compilation in different architecture like x86 based and arm based system.
+patching of litmus-rt which is platform for real time system.
+compilation of liblitmus(for launching real time tasks),feather-trace-tool(for schedule and overhead tracing).
+Data generation for schedule trace and overhead trace with different real time algorithm such as GSN-EDF,P-FP,PSN-EDF.
+
+-----------
+about projects-
+
+real estate project(using mern stack)-
+i developed real estate project.
+in which i used advanced authentication with google Oauth integration.Each user can create property listing with flexibility of discount price and upload upto 6 property-images.
+each property listing has image slider with convenient contact option for sale and rant.
+another feature of this project is search and sorting functionality. user can search property listing using title.
+(user can filter the property by whether it has furnished or not and some other parameters)
+(user can sort by date or prize)
+
+technology-mern stact,react+tailwind css,firebase,redux toolkit
+
+courier management service-
+it is web application to assist currier services for courier company.The system has two types of user which is the Admin user and the Branch Staff user. The Admin user can manage all the data in the system, including managing the branches and branch staff user.The Branch staff can only track a parcel and manage the list of packages.The couriered items have multiple statuses like “Collected”, “Shipped”, “Picked-up”,“Out for Delivery”, “Arrived At Destination”,  “Ready to Pickup”, “Delivered”, “Item Accepted by Courier”, and “Unsuccessful Delivery Attempt”. 
+
+-----------
+
+What are your strengths and weaknesses?-
+strenght and proof --
+My strength lies in my ability of quickly grasping new technologies and concepts. I have a good understanding level, which allows me to rapidly familiarize myself with emerging technologies. To achieve this, I am committed to delving deeper into topics, engaging in continuous learning, and critical thinking skills. I approach challenges with patience, willing to put hard work necessary to master complex subjects. My ability to combine a quick learning curve with critical thinking and dedication enables me to adapt dynamic environments and excel in tackling new challenges effectively.
+
+weakness --
+my weakness is my tendency to overthinking situations.Sometimes, I spend too much time on analysing the situation and which can lead unnecessary stress. To overcome this issue, I practice Vipassana meditation technique. It helps me to reduce stress and pressure, to increase my focus and helpfull in doing work effectively.
+
+Why should we hire you?--
+Sir, I believe I am the best fit for this role because of my self-motivated nature and dedication to delivering excellence in every task assigned to me. Throughout my academic journey, I have consistently given my 100% effort, resulting in successful outcomes. I am confident that I can bring the same level of commitment to any project within the company.
+Furthermore, I possess the ability to work effectively both as an individual contributor and as a team member. I understand the importance of collaboration and communication in achieving common goals. and i definetly make meaningful impact on team.
+Overall, I am confident that my skills, work ethic for the role make me a valuable addition to the organization.
+
+i don't know
+---
+i don't read the topic--
+sorry mam but i have not studied this topic yet.i shall learn the topic after the interview.
+
+---
+i can't recall the answer right now but i shall definately brush up more on it after interview.
+
+do you have question for me?
+what can i do to prepare myself better for this job if i get selected?
+what do you like the most about working in this organization?
+
+short term goal-
+My short-term goal is to place in multinational company where i can excel me in the role software engineer and make a meaningful impact on the team and the company. In the first few months, I want to become fully proficient in my responsibilities and align myself with the company's objectives and culture. I plan to work closely with my team members to effective contribute to projects.
+
+Additionally, I'm eager to identify opportunities to enhance our workflow. I believe that by focusing on these goals, I can help the team and it will meet its targets and ultimately it will give contribute to the overall success of the organization.
+
+long term goal --
+My long-term goal is to continue growing and advancing in my career. I am committed to utilizing my skills and efforts to make a meaningful impact on my team and contribute to the overall success of the organization.
+
+As I progress in my career, I aim to become fully proficient in my responsibilities. I see myself in a position where I can utilize my expertise and experience not only to drive the success of my team but also contribute to the broader strategic goals of the company.
+
+Ultimately, I aspire to be a valuable asset to the organization, making significant contributions to its growth and success. I am dedicated to continuous learning and development, always find opportunities to expand my skills and knowledge to better serve the company and achieve my long-term goals.
+
+why do you want to join to us?
+i am interested in your company because the position's requirement align perfectly with my passion and my skill.where i can utilize my skill and expertise to make a meaningful impact on team.i am inspired by advanced and cutting-edge technology.i shall get the opportunity to work with such technology,building scalable and efficient product.additionaly,I am eager to collaborate with team members who are dedicated to contributing to the company's growth and success.
+Overall, I believe that working with your company will not only allow me to utilize my skills effectively but also provide an environment where I can learn, grow, and make a significant contribution to the team and the company's success.
+
+why are you intersted in this position?
+so first of all,coding,problem solving,building scalable and efficient project is my passion.this position align with my passion.
+also now days industries are following advanced and cutting edge technologies. and i am inspired by this advancement in technology and cutting edge tool. i shall get the opportunity to work with such technology where i can utilize my skills and expertise. 
+additionaly this position allow me to create innovative and scalable project.
+so overall this position will be the best starting point for my carrier.
+ 
+---
+
+How do you handle stress and pressure?
+i use mediation technique for this situation.actually i have completed a vipassana mediation course.if we give atleast half hour to mediation daily then it will definately help to came out from stress.
+there is anapana mediation in which we have to give the concentration on incoming and outgoing breath.which helps me to keep mind calm and to overcome the stress and pressure.
+vipassana not only to usefull to overcame from stress and pressure but also it has so many advantages focus,concentration,for healthy mind.
+
+Can you provide an example of a time when you demonstrated leadership skills?
+In one of our group projects, I performed the role of a team leader responsible for facilitating collaboration and ensuring the successful completion of the task. My primary duty was to encourage team members to share their ideas and perspectives.
+To achieve this, I made effort to actively listen to their feedback and ideas, ensuring that each team member felt heard and valued. I empowered team members to contribute their unique insights to the project.
+
+After gathering insights from the team, I formulated a comprehensive plan of action that addressed the project's requirements and challenges, assigning responsibilities based on each team member's strengths and expertise, thus maximizing efficiency and ensuring a balanced workload.
+Throughout the project, I led by example, demonstrating a positive attitude, resilience, and determination to overcome issues.
+As a result of our collaborative efforts and effective leadership, we were able to successfully complete the project within the set timeframe and deliver excepted results.
+
+What motivated you to apply for this position?
+Software Developer is my passion for creating innovative solutions. Nowadays, industries are rapidly evolving, following cutting-edge technology to drive innovation and solve complex challenges. I'm inspired by the advancements in technology and the endless possibilities they offer.
+this position offer opportunity to work with emerging technologies and be part of innovation. solveing complex problems, building scalable and efficient software solutions.
+
+also it offers the chance to work with a dynamic team in an environment which focuses creativity and continuous learning. The prospect of collaborating with team work aligns perfectly with my career aspirations.
+
+Overall, the combination of my passion for software development, the opportunity to work with cutting-edge technology and the chance to be part of a forward-thinking team  make me motivated for this position.
+
+
+How do you stay updated with industry trends and developments? 
+I use multiple platforms to staying updated with industry trends and developments. Firstly, platforms like LinkedIn serve valuable resources for both motivation and awareness of new trends. I actively follow industry leaders, join relevant groups, and engage with insightful content shared on LinkedIn. This keeps me informed about the latest advancements and also provides me with a source of motivation.
+
+Additionally, I follow opportunities within my college community, such as seminars and workshops organized by faculty. These events not only expose me to new technologies and ideas but also provide a platform to address any doubts or questions. The collaborative learning environment provides discussion, critical thinking, and deeper understanding of key concepts.
+
+Furthermore, I am committed to continuous learning through online courses and workshops. Platforms like Coursera offer a various
+courses covering a wide range of topics relevant to my field.
+Overall, by integrating these various channels into my learning strategy, I stay update with industry trends and technology.
+
+tell me your biggest achievement--
+One of my proudest achievements was gaining admission to VJTI College, one of the top engineering colleges in Maharashtra. Securing admission to this institution was the result of continue hard work and daily practice for the MHT CET exam.
+
+I committed myself to rigorous study sessions, consistently pushing myself to excel and achieve the best possible results. I maintained a disciplined study routine, dedicating work for mastering the subjects.
+
+My efforts paid off when I received the news of my acceptance into VJTI College,an accomplishment that filled me with immense pride and gratitude.
+
+What makes this achievement even more meaningful is the fact that I am the only person from my batch to have gained admission to VJTI College.
+and with this achievement, I am eager to make meaningful contributions to the field of engineering.
+
+what do you feel on working with teamwork--
+I enjoy working with a team because it's both fun and fulfilling. Being part of a team allows me to work with others having different skills and backgrounds, which often leads to creative solutions and better outcomes. It's exciting to collaborate with my teammates, sharing ideas and supporting each other to achieve our common goals. Plus, working in a team fosters a sense of camaraderie and mutual respect, which makes the work environment enjoyable and motivating.
+
+In a team, I find that everyone's unique perspectives and experiences contribute to our success. We learn from each other, grow together, and celebrate our achievements. Collaboration also helps me develop new skills and expand my knowledge base, as I learn from my teammates. Overall, working in a team is not just about achieving tasks; it's about building strong relationships, fostering trust, and driving success together.
+
+How do you handle teamwork and collaboration if you are team member?
+As a team member,I like to be the active part of my group.
+I believe effective communication is key to successful collaboration.I enjoy sharing my ideas and perspectives, contributing to discussions with my teammates. I take my responsibilities seriously and ensure that I fulfill them to support the team's objectives.
+Moreover, I value open communication and respect the opinions of my fellow team members. I actively listen to their ideas and feedback.
+If I encounter challenges or uncertainties, I take guidance and support from both the team leader and my teammates. I believe that with effective communication and collaboratin we can overcome challenges and achieve our common goals.
+
+How do you handle and overcome challenges?
+Handling and overcoming challenges is an essential part of any role, and I approach them with a proactive and solution-oriented mindset. First, I assess the situation calmly and objectively to understand the root cause of the challenge. Then, I brainstorm potential solutions, considering various perspectives and approaches.
+
+Next, I prioritize the most effective solution and create a plan of action, breaking down the steps into manageable tasks. I remain adaptable and flexible, willing to adjust the plan as needed based on new information or unexpected developments.
+
+Communication is key during this process, so I make sure to keep informed relevant teammates about the challenge and the steps being taken to address it. I also collaborate with teammates or i take advice from mentors when necessary.
+
+Throughout the challenge, i maintain my patience and motivate myself to solve the problem. I view challenges as opportunities for growth and learning,such that I can improve and refine myself.I believe i can overcome any challenge effectively By staying positive thinking, hard working, and with proper direction.
+
+
+Describe a difficult situation you faced at work and how you resolved it. --
+i have Faced the difficult task of kernel compilation which is the complex and risk associated with it. To tackle this challenge effectively, I used a strategy to mitigate the risk by initially compiling the kernel in a virtual environment, such as VirtualBox.
+
+By starting in a controlled environment, I gained valuable hands-on experience and familiarized myself with  compilation process. This approach allowed me to understand the steps involved, identify potential risks, and troubleshoot any issues in a safe setting.
+
+After mastering the process in the virtual environment, I proceeded to compile the kernel on the bare machine. with the knowledge and confidence gained from the initial practice, I navigated through the complexities of the real-time kernel compilation successfully.
+
+with good through process and effort, I not only overcame the challenge of kernel compilation but also expanded my skills and understanding of the process. so with This experience i understood the importance of practicing in a controlled environment, and taking calculated risks to overcome challenges effectively.
+
+How do you handle tight deadlines and high-pressure situations
+Firstly, I turn to Vipassana meditation techniques to reduce pressure and increase my focus. By taking short breaks to practice mindfulness, I can reset my mindset and approach tasks.
+Next, I prioritize tasks based on their urgency and importance. This allows me to tackle the most critical items first, ensuring that essential deadlines are met. Additionally, I break down tasks into smaller, more manageable segments to facilitate better time management and progress tracking.
+I'm not afraid to ask for help or delegate tasks to teammates when needed.
+
+How do you deal with criticism?
+When faced with criticism, I maintain an enthusiastic attitude towards learning and growth.I recognize that making mistakes is a natural part of the learning process, and I am always open to receiving constructive feedback. If someone offers me feedback,i view it as opportunity to improve myself.If the feedback is negative, then I am mature enough to ignore the feedback and continue working on doing my job to the best of my capabilities without dampening my spirit.
+
+
+q15 37
+
+-----------------------------------------
